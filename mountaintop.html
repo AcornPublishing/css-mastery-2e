@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Advanced Flexible Width Rounded Corner Box</title>
+<style type="text/css">
+<!--
+/* pretty stuff
+================================== */
+
+body {
+ font: 62.5%/1.6 "Gill Sans", Futura, "Lucida Grande", Geneva, sans-serif;
+ color: #666;
+ background: #fff;
+}
+
+h2 {
+ font-size: 2.2em;
+ font-weight: normal;
+ line-height: 1;
+ color: #94b767;
+ margin: 0;
+}
+
+.box {
+ font-size: 2em;
+}
+
+/* rounded corner box
+================================== */
+
+.box {
+ width: 20em;
+ background: #effce7 url(images/mt_bottom_left.gif) no-repeat left bottom;
+}
+
+.box-outer {
+ background: url(images/mt_bottom_right.gif) no-repeat right bottom;
+ padding-bottom: 5%;
+}
+
+.box-inner {
+ background: url(images/mt_top_left.gif) no-repeat left top;
+}
+
+.box h2 {
+ background: url(images/mt_top_right.gif) no-repeat right top;
+ padding-top: 5%;
+}
+
+
+.box h2, .box p {
+ padding-left: 5%;
+ padding-right: 5%;
+}
+
+
+-->
+</style>
+</head>
+
+<body>
+<div class="box">
+<div class="box-outer">
+<div class="box-inner">
+ <h2>배경 이미지 기초</h2>
+ <p>배경 이미지 다루기는 매우 쉽습니다. 여러분 웹 사이트에 배경 이미지를 멋지게 깔고 싶으면 다음과 같이 body
+엘리먼트에 이미지를 배경으로 지정하기만 하면 됩니다.</p>
+</div>
+</div>
+</div>
+</body>
+</html>
